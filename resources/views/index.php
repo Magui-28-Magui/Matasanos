@@ -6,10 +6,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Health medical template project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../../public/styles/bootstrap4/bootstrap.min.css">
-<link href="public/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="public/styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="public/styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="resources/styles/bootstrap4/bootstrap.min.css">
+<link href="resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="resources/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="resources/styles/responsive.css">
 </head>
 <body>
 
@@ -310,12 +310,12 @@
 	</footer>
 </div>
 
-<script src="public/js/jquery-3.3.1.min.js"></script>
-<script src="public/styles/bootstrap4/popper.js"></script>
-<script src="public/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="public/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="public/plugins/easing/easing.js"></script>
-<script src="public/plugins/parallax-js-master/parallax.min.js"></script>
-<script src="public/js/custom.js"></script>
+<script src="resources/js/jquery-3.3.1.min.js"></script>
+<script src="resources/styles/bootstrap4/popper.js"></script>
+<script src="resources/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="resources/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="resources/resources/plugins/easing/easing.js"></script>
+<script src="resources/resources/resources/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="resources/js/custom.js"></script>
 </body>
 </html>
