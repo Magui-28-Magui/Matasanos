@@ -57,7 +57,7 @@
     <!-- CTA -->
 
     <div class="cta">
-        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
+        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{asset('images/cta_1.jpg')}}" data-speed="0.8"></div>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -89,7 +89,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_1.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_1.svg')}}" alt=""></div>
                             <div class="icon_box_title">Cardiología</div>
                         </div>
                         <div class="icon_box_text" align="justify">Hospital Matasanos ofrece tecnología de vanguardia para el diagnóstico de las enfermedades cardíacas pediátricas, y los últimos dispositivos que ayudan a que el corazón funcione correctamente.</div>
@@ -100,7 +100,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_2.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_2.svg')}}" alt=""></div>
                             <div class="icon_box_title">Gastroenterología</div>
                         </div>
                         <div class="icon_box_text" align="justify">Parte de la medicina que se ocupa del estómago y los intestinos y sus enfermedades, así como del resto de los órganos del aparato digestivo</div>
@@ -111,7 +111,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_3.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_3.svg')}}" alt=""></div>
                             <div class="icon_box_title">Laboratorio Médico</div>
                         </div>
                         <div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
@@ -122,7 +122,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_4.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_4.svg')}}" alt=""></div>
                             <div class="icon_box_title">Cuidado Dental</div>
                         </div>
                         <div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
@@ -133,7 +133,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_5.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_5.svg')}}" alt=""></div>
                             <div class="icon_box_title">Cirugía</div>
                         </div>
                         <div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
@@ -144,7 +144,7 @@
                 <div class="col-xl-4 col-lg-6">
                     <div class="icon_box">
                         <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-                            <div class="icon_box_icon"><img src="/resources/images/icon_6.svg" alt=""></div>
+                            <div class="icon_box_icon"><img src="{{asset('images/icon_6.svg')}}" alt=""></div>
                             <div class="icon_box_title">Neurología</div>
                         </div>
                         <div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
