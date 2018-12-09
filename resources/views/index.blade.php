@@ -52,7 +52,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="background_image" style="background-image:url(/resources/images/index_hero.jpg)"></div>
+		<div class="background_image" style="background-image:url(images/index_hero.jpg)"></div>
 
 		<!-- Header -->
 
@@ -64,7 +64,7 @@
 							<div class="col">
 								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
 									<div class="logo">
-									<img src="/resources/images/matasanos.png" style="width:300px">
+									<img src="{{asset('images/matasanos.png')}}" style="width:300px">
 									</div>
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										<div class="header_top_nav">
