@@ -7,7 +7,7 @@
                 <!-- Info Box -->
                 <div class="col-lg-4 info_box_col">
                     <div class="info_box">
-                        <div class="info_image"><img src="/resources/images/info_1.jpg" alt=""></div>
+                        <div class="info_image"><img src="{{asset('images/info_1.png')}}" alt=""></div>
                         <div class="info_content">
                             <div class="info_title">Consultas Gratis</div>
                             <div class="info_text">Solicita una consulta a través de nuestro formulario en línea seguro. Nuestro objetivo es comunicarnos contigo por teléfono dentro de un plazo de tres días hábiles para analizar tu información médica y financiera.</div>
@@ -18,7 +18,7 @@
                 <!-- Info Box -->
                 <div class="col-lg-4 info_box_col">
                     <div class="info_box">
-                        <div class="info_image"><img src="/resources/images/info_2.jpg" alt=""></div>
+                        <div class="info_image"><img src="{{asset('images/info_2.png')}}" alt=""></div>
                         <div class="info_content">
                             <div class="info_title">Cuidados de emergencias</div>
                             <div class="info_text">Hospital Matasanos trabaja con cientos de compañías de seguros y es un proveedor dentro de la red para millones de personas. <br><br> </div>
