@@ -4,12 +4,11 @@
 <title>Hospital Matasanos</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Health medical template project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/resources/styles/bootstrap4/bootstrap.min.css">
-<link href="/resources/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="/resources/styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="/resources/styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="/public/styles/bootstrap4/bootstrap.min.css">
+<link href="/public/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/public/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="/public/styles/responsive.css">
 </head>
 <body>
 
@@ -28,8 +27,8 @@
 				<li class="menu_item"><a href="index.php">Home</a></li>
 				<li class="menu_item"><a href="#">About us</a></li>
 				<li class="menu_item"><a href="#">Services</a></li>
-				<li class="menu_item"><a href="news.html">News</a></li>
-				<li class="menu_item"><a href="contact.html">Contact</a></li>
+				<li class="menu_item"><a href="#">News</a></li>
+				<li class="menu_item"><a href="#">Contact</a></li>
 			</ul>
 		</div>
 		<div class="menu_social">
@@ -88,9 +87,9 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<li class="active"><a href="index.html">Inicio</a></li>
-													<li><a href="about.html">Acerca de nosotros</a></li>
-													<li><a href="services.html">Servicios</a></li><li><a href="contact.html">Contacto</a></li>
+													<li class="active"><a href="index.php">Inicio</a></li>
+													<li><a href="#">Acerca de nosotros</a></li>
+													<li><a href="#">Servicios</a></li><li><a href="#">Contacto</a></li>
 												</ul>
 											</nav>
 										</div>
@@ -127,7 +126,7 @@
 				<!-- Info Box -->
 				<div class="col-lg-4 info_box_col">
 					<div class="info_box">
-						<div class="info_image"><img src="images/info_1.jpg" alt=""></div>
+						<div class="info_image"><img src="/resources/images/info_1.jpg" alt=""></div>
 						<div class="info_content">
 							<div class="info_title">Consultas Gratis</div>
 							<div class="info_text">Solicita una consulta a través de nuestro formulario en línea seguro. Nuestro objetivo es comunicarnos contigo por teléfono dentro de un plazo de tres días hábiles para analizar tu información médica y financiera.</div>
@@ -138,7 +137,7 @@
 				<!-- Info Box -->
 				<div class="col-lg-4 info_box_col">
 					<div class="info_box">
-						<div class="info_image"><img src="images/info_2.jpg" alt=""></div>
+						<div class="info_image"><img src="/resources/images/info_2.jpg" alt=""></div>
 						<div class="info_content">
 							<div class="info_title">Cuidados de emergencias</div>
 							<div class="info_text">Hospital Matasanos trabaja con cientos de compañías de seguros y es un proveedor dentro de la red para millones de personas. <br><br> </div>
@@ -286,10 +285,10 @@
 						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
 							<nav class="footer_nav">
 								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li class="active"><a href="index.html">Inicio</a></li>
-									<li><a href="about.html">Acerca de nosotros</a></li>
-									<li><a href="services.html">Servicios</a></li>
-									<li><a href="contact.html">Contacto</a></li>
+									<li class="active"><a href="index.php">Inicio</a></li>
+									<li><a href="#">Acerca de nosotros</a></li>
+									<li><a href="#">Servicios</a></li>
+									<li><a href="#">Contacto</a></li>
 								</ul>
 							</nav>
 							<div class="footer_links">
@@ -310,12 +309,12 @@
 	</footer>
 </div>
 
-<script src="/resources/js/jquery-3.3.1.min.js"></script>
-<script src="/resources/styles/bootstrap4/popper.js"></script>
-<script src="/resources/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="/resources/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="/resources/plugins/easing/easing.js"></script>
-<script src="/resources/plugins/parallax-js-master/parallax.min.js"></script>
-<script src="/resources/js/custom.js"></script>
+<script src="/public/js/jquery-3.3.1.min.js"></script>
+<script src="/public/styles/bootstrap4/popper.js"></script>
+<script src="/public/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/public/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="/public/plugins/easing/easing.js"></script>
+<script src="/public/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/public/js/custom.js"></script>
 </body>
 </html>
