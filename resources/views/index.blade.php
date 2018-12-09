@@ -72,6 +72,7 @@
 											<ul class="d-flex flex-row align-items-center justify-content-start">
 												<li><a href="index.blade.php">Inicio</a></li>
 												<li><a href="#">Servicios de emergencias</a></li>
+												<li><a href="#"><b>Iniciar sesión</b></a></li>
 											</ul>
 										</div>
 
