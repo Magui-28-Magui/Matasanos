@@ -11,6 +11,7 @@
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('css/main_styles.css')}}" rel="stylesheet"/>
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet"/>
+    <link href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}" rel="stylesheet"/>
 
 
 
@@ -73,10 +74,7 @@
 												<li><a href="#">Servicios de emergencias</a></li>
 											</ul>
 										</div>
-										<div class="header_top_phone">
-											<button class="btn btn-default  dim" type="button">Reserva  tu cita</button>
 
-										</div>
 									</div>
 									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
 								</div>
@@ -115,7 +113,10 @@
 						<div class="home_content">
 							<div class="home_title">Servicios médicos en los que puedes confiar.</div>
 							<div class="home_text">Coordinamos cada aspecto de tu atención médica y los equipos de expertos trabajan juntos para brindarte exactamente la atención que necesitas</div>
-						
+                            <div class="header_top_phone">
+                                <button class="btn btn-default  dim" type="button">Reserva  tu cita</button>
+
+                            </div>
 						</div>
 					</div>
 				</div>
