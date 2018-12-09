@@ -1,4 +1,4 @@
-@extends('layouts.frontend.index')
+@extends('index')
 @section('content')
     <div class="info">
         <div class="container">
