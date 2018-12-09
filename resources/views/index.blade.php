@@ -4,12 +4,12 @@
 <title>Hospital Matasanos</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/main_styles.css')}}" rel="stylesheet">
-    <link href="{{asset('css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet"/>
+    <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet"/>
+    <link href="{{asset('css/main_styles.css')}}" rel="stylesheet"/>
+    <link href="{{asset('css/responsive.css')}}" rel="stylesheet"/>
 
 
 <!--<link rel="stylesheet" type="text/css" href="/public/styles/bootstrap4/bootstrap.min.css">
@@ -31,7 +31,7 @@
 				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
 			</form>
 			<ul>
-				<li class="menu_item"><a href="index.php">Home</a></li>
+				<li class="menu_item"><a href="index.blade.php">Home</a></li>
 				<li class="menu_item"><a href="#">About us</a></li>
 				<li class="menu_item"><a href="#">Services</a></li>
 				<li class="menu_item"><a href="#">News</a></li>
@@ -70,7 +70,7 @@
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										<div class="header_top_nav">
 											<ul class="d-flex flex-row align-items-center justify-content-start">
-												<li><a href="#">Inicio</a></li>
+												<li><a href="index.blade.php">Inicio</a></li>
 												<li><a href="#">Servicios de emergencias</a></li>
 											</ul>
 										</div>
@@ -94,7 +94,7 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<li class="active"><a href="index.php">Inicio</a></li>
+													<li class="active"><a href="index.blade.php">Inicio</a></li>
 													<li><a href="#">Acerca de nosotros</a></li>
 													<li><a href="#">Servicios</a></li><li><a href="#">Contacto</a></li>
 												</ul>
@@ -292,7 +292,7 @@
 						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
 							<nav class="footer_nav">
 								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li class="active"><a href="index.php">Inicio</a></li>
+									<li class="active"><a href="index.blade.php">Inicio</a></li>
 									<li><a href="#">Acerca de nosotros</a></li>
 									<li><a href="#">Servicios</a></li>
 									<li><a href="#">Contacto</a></li>
