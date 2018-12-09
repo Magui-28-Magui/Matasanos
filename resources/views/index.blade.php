@@ -5,10 +5,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/public/styles/bootstrap4/bootstrap.min.css">
+
+    <link href="{{asset('/recources/styles/bootstrap4/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/recources/plugins/font-awesome-4.7.0/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/recources/plugins/styles/main_styles.css')}}" rel="stylesheet">
+    <link href="{{asset('/recources/plugins/styles/responsive.css')}}" rel="stylesheet">
+
+
+<!--<link rel="stylesheet" type="text/css" href="/public/styles/bootstrap4/bootstrap.min.css">
 <link href="/public/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="/public/styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="/public/styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="/public/styles/responsive.css"> -->
 </head>
 <body>
 
