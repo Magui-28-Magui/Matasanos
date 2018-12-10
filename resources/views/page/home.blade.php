@@ -27,35 +27,29 @@
                 </div>
 
                 <!-- Footer Hours -->
-                <div class="col-lg-4 info_box_col">
-                    <div class="info_form_title justify-content-center">Realiza una cita</div>
-                    <div class="info_form_container">
-                        <form action="#" class="info_form" id="info_form">
-                            <input type="text" class="info_input" placeholder="Nombre completo" required="required">
-                            <input type="text" class="info_input" placeholder="Número de telefono">
-                            <input type="text" class="info_input" placeholder="Correo">
-                            <input type="date" class="info_input" required="required">
-
-                            <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
-                                <option>Departamento</option>
-                                <option>Cardiología</option>
-                                <option>Gastroenterología</option>
-                                <option>Laboratorio Médico</option>
-                                <option>Cuidado Dental</option>
-                                <option>Cirugía</option>
-                                <option>Neurología</option>
-                            </select>
-                            <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
-                                <option>Doctor</option>
-                                <option>Alvin Yakitori</option>
-                                <option>Jefferson Gutierritos</option>
-                            </select>
-
-                            <button class="info_form_button">make an appointment</button>
-                        </form>
+                <div class="col-lg-4 footer_col">
+                    <div class="footer_hours">
+                        <div class="footer_hours_title">Horarios de Apertura</div>
+                        <ul class="hours_list">
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Lunes – Martes</div>
+                                <div class="ml-auto">8.00 – 19.00</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Miercoles</div>
+                                <div class="ml-auto">8.00 - 18.30</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Sabado</div>
+                                <div class="ml-auto">9.30 – 17.00</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Domingo</div>
+                                <div class="ml-auto">9.30 – 15.00</div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
