@@ -128,40 +128,6 @@
                                             <h4 class="modal-title">Agenda tu cita</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-
-                                        <!-- Modal body -->
-                                        <div class="modal-body">
-                                            <form action="#" class="info_form" id="info_form">
-                                                <input type="text" class="info_input" placeholder="Nombre completo" required="required">
-                                                <input type="text" class="info_input" placeholder="Número de telefono">
-                                                <input type="text" class="info_input" placeholder="Correo">
-                                                <input type="date" class="info_input" required="required">
-
-                                                <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
-                                                    <option>Departamento</option>
-                                                    <option>Cardiología</option>
-                                                    <option>Gastroenterología</option>
-                                                    <option>Laboratorio Médico</option>
-                                                    <option>Cuidado Dental</option>
-                                                    <option>Cirugía</option>
-                                                    <option>Neurología</option>
-                                                </select>
-                                                <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
-                                                    <option>Doctor</option>
-                                                    <option>Alvin Yakitori</option>
-                                                    <option>Jefferson Gutierritos</option>
-                                                </select>
-                                            </form>
-                                        </div>
-
-                                        <!-- Modal footer -->
-                                        <div class="modal-footer">
-
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                            <button type="submit" class="info_form_button">Enviar</button>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
 						</div>
