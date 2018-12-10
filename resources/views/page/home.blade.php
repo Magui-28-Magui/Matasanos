@@ -9,9 +9,8 @@
                     <div class="info_box">
                         <div class="info_image"><img src="images/info_1.jpg" alt=""></div>
                         <div class="info_content">
-                            <div class="info_title">Free Consultations</div>
+                            <div class="info_title">Doctor Jefferson Gutierritos</div>
                             <div class="info_text">Arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus mollis.</div>
-                            <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -21,31 +20,39 @@
                     <div class="info_box">
                         <div class="info_image"><img src="images/info_2.jpg" alt=""></div>
                         <div class="info_content">
-                            <div class="info_title">Emergency Care</div>
+                            <div class="info_title">Alvin Yakitori</div>
                             <div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-                            <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div>
+
                         </div>
                     </div>
                 </div>
 
                 <!-- Info Form -->
                 <div class="col-lg-4 info_box_col">
+                    <div class="info_form_title">Agenda tu cita aquí</div>
                     <div class="info_form_container">
-                        <div class="info_form_title">Make an Appointment</div>
+                        <input type="text" class="info_input" placeholder="Nombre" required="required">
+                        <input type="text" class="info_input" placeholder="Telefono">
                         <form action="#" class="info_form" id="info_form">
                             <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
+                                <option>Departamento</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
                                 <option>Department</option>
                                 <option>Department</option>
                                 <option>Department</option>
                             </select>
                             <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
                                 <option>Doctor</option>
-                                <option>Doctor</option>
-                                <option>Doctor</option>
+                                <option>Jefferson Gutierritos</option>
+                                <option>Alvin Yakitori</option>
                             </select>
-                            <input type="text" class="info_input" placeholder="Name" required="required">
-                            <input type="text" class="info_input" placeholder="Phone No">
-                            <button class="info_form_button">make an appointment</button>
+                            <input type="text" class="info_input" placeholder="Correo" required="required">
+                            <input type="date" class="info_input" placeholder="Fecha">
+                            <input type="text" class="info_input" placeholder="Razón">
+                            <button class="info_form_button">Enviar cita</button>
                         </form>
                     </div>
                 </div>
