@@ -23,14 +23,9 @@
                                             <li><a href="index.blade.php">Inicio</a></li>
                                             <li> <a href="https://serene-waters-40259.herokuapp.com/register" class="nav-link">Registrar</a></li>
 
-                                            {{--<li><a href="#">Servicios de emergencias</a></li>--}}
-                                            {{--<li><a href="auth/login.php"> Inicia sesion  </a></li>--}}
                                         </ul>
                                     </div>
-                                    {{--<div class="header_top_phone">--}}
-                                    {{--<button class="btn btn-default  dim" type="button">Reserva  tu cita</button>--}}
 
-                                    {{--</div>--}}
                                 </div>
                                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
                             </div>

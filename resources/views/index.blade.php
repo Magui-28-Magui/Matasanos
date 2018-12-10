@@ -72,7 +72,6 @@
 											<ul class="d-flex flex-row align-items-center justify-content-start">
 												<li><a href="https://hospital-matasanos.herokuapp.com">Inicio</a></li>
 												<li><a href="#">Servicios de emergencias</a></li>
-												<li><a href="https://hospital-matasanos.herokuapp.com/login"><b>Iniciar sesión</b></a></li>
 											</ul>
 										</div>
 
