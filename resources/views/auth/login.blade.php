@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    <title>Hospital Matasanos|Iniciar Sesión</title>
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('css/font-awesome.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('css/main_styles.css')}}" rel="stylesheet"/>
