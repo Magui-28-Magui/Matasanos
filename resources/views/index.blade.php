@@ -134,36 +134,71 @@
 
 	<!-- Footer -->
 
-	<footer class="footer">
-		<div class="footer_bar">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
-							<nav class="footer_nav">
-								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li class="active"><a href="index.blade.php">Inicio</a></li>
-									<li><a href="#">Acerca de nosotros</a></li>
-									<li><a href="#">Servicios</a></li>
-									<li><a href="#">Contacto</a></li>
-								</ul>
-							</nav>
-							<div class="footer_links">
-								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li><a href="#">Inicio</a></li>
-									<li><a href="#">Servicios de emergencias</a></li>
-								</ul>
-							</div>
-							<div class="footer_phone ml-lg-auto">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-								<span>+34 586 778 8892</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+<footer class="footer">
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg" data-speed="0.8"></div>
+    <div class="footer_content">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Hours -->
+                <div class="col-lg-4 footer_col">
+                    <div class="footer_hours">
+                        <div class="footer_hours_title">Opening Hours</div>
+                        <ul class="hours_list">
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Monday – Thursday</div>
+                                <div class="ml-auto">8.00 – 19.00</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Friday</div>
+                                <div class="ml-auto">8.00 - 18.30</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Saturday</div>
+                                <div class="ml-auto">9.30 – 17.00</div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div>Sunday</div>
+                                <div class="ml-auto">9.30 – 15.00</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+                        <nav class="footer_nav">
+                            <ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer_links">
+                            <ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+                                <li><a href="#">Help Desk</a></li>
+                                <li><a href="#">Emergency Services</a></li>
+                                <li><a href="#">Appointment</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_phone ml-lg-auto">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>+34 586 778 8892</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </div>
 
 <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
