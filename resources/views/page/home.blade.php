@@ -20,7 +20,7 @@
                     <div class="info_box">
                         <div class="info_image"><img src="images/info_2.jpg" alt=""></div>
                         <div class="info_content">
-                            <div class="info_title">Alvin Yakitori</div>
+                            <div class="info_title">Doctor Alvin Yakitori</div>
                             <div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
 
                         </div>
@@ -31,7 +31,6 @@
                 <div class="col-lg-4 info_box_col">
                     <div class="info_form_title">Agenda tu cita aquí</div>
                     <div class="info_form_container">
-                        <input type="text" class="info_input" placeholder="Nombre Completo" required="required">
                         <form action="#" class="info_form" id="info_form"  required="required">
                             <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
                                 <option>Departamento</option>
@@ -48,6 +47,7 @@
                                 <option>Jefferson Gutierritos</option>
                                 <option>Alvin Yakitori</option>
                             </select>
+                            <input type="text" class="info_input" placeholder="Nombre" required="required">
                             <input type="text" class="info_input" placeholder="Correo" required="required">
                             <input type="date" class="info_input" placeholder="Fecha"  required="required">
                             <input type="text" class="info_input" placeholder="Razón"  required="required">

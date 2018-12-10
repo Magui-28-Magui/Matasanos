@@ -143,22 +143,22 @@
                 <!-- Footer Hours -->
                 <div class="col-lg-4 footer_col">
                     <div class="footer_hours">
-                        <div class="footer_hours_title">Opening Hours</div>
+                        <div class="footer_hours_title">Horarios de apertura</div>
                         <ul class="hours_list">
                             <li class="d-flex flex-row align-items-center justify-content-start">
-                                <div>Monday – Thursday</div>
+                                <div>Lunes – Martes</div>
                                 <div class="ml-auto">8.00 – 19.00</div>
                             </li>
                             <li class="d-flex flex-row align-items-center justify-content-start">
-                                <div>Friday</div>
+                                <div>Miercoles- Jueves</div>
                                 <div class="ml-auto">8.00 - 18.30</div>
                             </li>
                             <li class="d-flex flex-row align-items-center justify-content-start">
-                                <div>Saturday</div>
+                                <div>Viernes - Sabados</div>
                                 <div class="ml-auto">9.30 – 17.00</div>
                             </li>
                             <li class="d-flex flex-row align-items-center justify-content-start">
-                                <div>Sunday</div>
+                                <div>Domingo</div>
                                 <div class="ml-auto">9.30 – 15.00</div>
                             </li>
                         </ul>
