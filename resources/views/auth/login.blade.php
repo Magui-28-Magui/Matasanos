@@ -20,15 +20,10 @@
                                 <div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
                                     <div class="header_top_nav">
                                         <ul class="d-flex flex-row align-items-center justify-content-start">
-                                            <li><a href="index.blade.php">Inicio</a></li>
-                                            {{--<li><a href="#">Servicios de emergencias</a></li>--}}
-                                            {{--<li><a href="auth/login.php"> Inicia sesion  </a></li>--}}
+                                            <li><a href="https://hospital-matasanos.herokuapp.com">Inicio</a></li>
                                         </ul>
                                     </div>
-                                    {{--<div class="header_top_phone">--}}
-                                    {{--<button class="btn btn-default  dim" type="button">Reserva  tu cita</button>--}}
 
-                                    {{--</div>--}}
                                 </div>
                                 <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
                             </div>
@@ -87,7 +82,7 @@
                                         <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                         <label class="form-check-label" for="remember">
-                                            {{ __('Remember Me') }}
+                                            {{ __('Recuerdame') }}
                                         </label>
                                     </div>
                                 </div>
@@ -95,8 +90,8 @@
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
-                                        {{ __('Iniciar Secion') }}
+                                    <button type="submit" class="info_form_button">
+                                        {{ __('Iniciar sesión') }}
                                     </button>
 
                                     @if (Route::has('password.request'))
