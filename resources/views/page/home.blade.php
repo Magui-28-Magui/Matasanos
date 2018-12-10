@@ -31,9 +31,8 @@
                 <div class="col-lg-4 info_box_col">
                     <div class="info_form_title">Agenda tu cita aquí</div>
                     <div class="info_form_container">
-                        <input type="text" class="info_input" placeholder="Nombre" required="required">
-                        <input type="text" class="info_input" placeholder="Telefono">
-                        <form action="#" class="info_form" id="info_form">
+                        <input type="text" class="info_input" placeholder="Nombre Completo" required="required">
+                        <form action="#" class="info_form" id="info_form"  required="required">
                             <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
                                 <option>Departamento</option>
                                 <option>Department</option>
@@ -44,14 +43,15 @@
                                 <option>Department</option>
                                 <option>Department</option>
                             </select>
-                            <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
+                            <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select"  required="required">
                                 <option>Doctor</option>
                                 <option>Jefferson Gutierritos</option>
                                 <option>Alvin Yakitori</option>
                             </select>
                             <input type="text" class="info_input" placeholder="Correo" required="required">
-                            <input type="date" class="info_input" placeholder="Fecha">
-                            <input type="text" class="info_input" placeholder="Razón">
+                            <input type="date" class="info_input" placeholder="Fecha"  required="required">
+                            <input type="text" class="info_input" placeholder="Razón"  required="required">
+                            <input type="text" class="info_input" placeholder="Telefono"  required="required">
                             <button class="info_form_button">Enviar cita</button>
                         </form>
                     </div>
