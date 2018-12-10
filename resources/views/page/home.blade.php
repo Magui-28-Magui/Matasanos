@@ -34,13 +34,12 @@
                         <form action="#" class="info_form" id="info_form"  required="required">
                             <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
                                 <option>Departamento</option>
-                                <option>Department</option>
-                                <option>Department</option>
-                                <option>Department</option>
-                                <option>Department</option>
-                                <option>Department</option>
-                                <option>Department</option>
-                                <option>Department</option>
+                                <option>Cardiología</option>
+                                <option>Gastroenterología</option>
+                                <option>Laboratorio Médico</option>
+                                <option>Cuidado Dental</option>
+                                <option>Cirugía</option>
+                                <option>Neurología</option>
                             </select>
                             <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select"  required="required">
                                 <option>Doctor</option>
