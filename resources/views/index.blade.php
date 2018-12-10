@@ -70,9 +70,9 @@
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										<div class="header_top_nav">
 											<ul class="d-flex flex-row align-items-center justify-content-start">
-												<li><a href="index.blade.php">Inicio</a></li>
+												<li><a href="{{ route('home') }}">Inicio</a></li>
 												<li><a href="#">Servicios de emergencias</a></li>
-												<li><a href="#"><b>Iniciar sesión</b></a></li>
+												<li><a href="{{ route('login') }}"><b>Iniciar sesión</b></a></li>
 											</ul>
 										</div>
 
