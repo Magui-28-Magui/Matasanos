@@ -110,7 +110,7 @@
 
 
 
-    <footer class="footer" style="bottom: 100%">
+    <footer class="footer" style="bottom: 0; position: fixed; !important;">
         <div class="footer_bar" style="bottom: 100% !important;">
             <div class="container">
                 <div class="row">
