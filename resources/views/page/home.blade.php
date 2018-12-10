@@ -58,7 +58,7 @@
 
     <div class="cta">
         <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{asset('images/cta_1.jpg')}}" data-speed="0.8">
-            <img src="{{asset('images/cta_1.jpg')}}" alt=""></div>
+            <img src="{{asset('images/cta_1.jpg')}}" style="width: 100%;"></div>
         <div class="container">
             <div class="row">
                 <div class="col">
