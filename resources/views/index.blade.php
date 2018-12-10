@@ -114,13 +114,31 @@
 						<div class="home_content">
 							<div class="home_title">Servicios médicos en los que puedes confiar.</div>
 							<div class="home_text">Coordinamos cada aspecto de tu atención médica y los equipos de expertos trabajan juntos para brindarte exactamente la atención que necesitas</div>
-                            <div class="header_top_phone">
-                                <button class="btn btn-primary  dim" type="button" data-toggle="modal" data-target=".bd-example-modal-sm">Reserva  tu cita</button>
-                                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-sm">
-                                        <div class="modal-content">
-                                            lgglglglglg
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                Open modal
+                            </button>
+
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Modal Heading</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            Modal body..
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
