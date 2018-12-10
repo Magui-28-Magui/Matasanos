@@ -42,7 +42,6 @@
 
                 <!-- Footer Hours -->
                 <div class="col-lg-4 info_box_col">
-                    <div class="info_form_title justify-content-center">Realiza una cita</div>
                     <div class="info_form_container">
                         <form action="#" class="info_form" id="info_form">
                             <input type="text" class="info_input" placeholder="Nombre completo" required="required">
