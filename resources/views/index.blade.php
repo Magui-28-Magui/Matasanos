@@ -118,13 +118,15 @@
                                 Agenda tu cita aquí
                             </button>
 
-                            <!-- The Modal -->
 
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	</div>
+	</div>
+
 
 	<!-- Info Boxes -->
 
