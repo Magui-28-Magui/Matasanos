@@ -114,9 +114,9 @@
 						<div class="home_content">
 							<div class="home_title">Servicios médicos en los que puedes confiar.</div>
 							<div class="home_text">Coordinamos cada aspecto de tu atención médica y los equipos de expertos trabajan juntos para brindarte exactamente la atención que necesitas</div>
-                            <button type="button" class="btn btn-default  dim" data-toggle="modal" data-target="#myModal">
+                            <a href="#registro"><button type="button" class="btn btn-default  dim" data-toggle="modal" data-target="#myModal">
                                 Agenda tu cita aquí
-                            </button>
+                            </button></a>
 
 
 					</div>
@@ -174,23 +174,21 @@
                     <div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
                         <nav class="footer_nav">
                             <ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-                                <li class="active"><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="news.html">News</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class="active"><a href="">Inicio</a></li>
+                                <li><a href="about.html">Servicios de emergencias</a></li>
+                                <li><a href="services.html">Iniciar sesión</a></li>
                             </ul>
                         </nav>
                         <div class="footer_links">
                             <ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-                                <li><a href="#">Help Desk</a></li>
-                                <li><a href="#">Emergency Services</a></li>
-                                <li><a href="#">Appointment</a></li>
+                                <li><a href="#">Acerca de nosotros</a></li>
+                                <li><a href="#">Servicios</a></li>
+                                <li><a href="#">Contacto</a></li>
                             </ul>
                         </div>
                         <div class="footer_phone ml-lg-auto">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>+34 586 778 8892</span>
+                            <span>+01 800 778 maton</span>
                         </div>
                     </div>
                 </div>
