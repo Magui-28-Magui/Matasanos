@@ -47,12 +47,18 @@
                                 <option>Alvin Yakitori</option>
                             </select>
                             <input type="text" class="info_input" placeholder="Nombre" required="required">
+
+
+
                             <input type="text" class="info_input" placeholder="Correo" required="required">
                             <input type="date" class="info_input" placeholder="Fecha"  required="required">
                             <input type="text" class="info_input" placeholder="Razón"  required="required">
                             <input type="text" class="info_input" placeholder="Telefono"  required="required">
                             <button class="info_form_button">Enviar cita</button>
+
+
                         </form>
+
                     </div>
                 </div>
             </div>
