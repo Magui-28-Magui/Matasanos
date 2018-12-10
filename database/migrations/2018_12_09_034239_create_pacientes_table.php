@@ -19,11 +19,11 @@ class CreatePacientesTable extends Migration
             $table->string('nombre');
             $table->integer('edad');
             $table->integer('telefono');
-            $table->string('razon');
+            $table->text('razon');
             $table->string('email');
-            $table->string('departamento');
+            $table->enum('departamento',  ['','','']);
             $table->date('fecha');
-            $table->string('doctor');
+            $table->enum('doctor');
         });
     }
 

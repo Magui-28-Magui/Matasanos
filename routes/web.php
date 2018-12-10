@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('page.home');
 });
 
-Route::resource('Paciente', 'PacienteController');
+Route::resource('pacientes', 'PacienteController');
 
 Auth::routes();
 

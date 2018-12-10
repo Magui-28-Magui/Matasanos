@@ -1,62 +1,81 @@
 <?php
+
 namespace App\Http\Controllers;
+
 use App\Paciente;
 use Illuminate\Http\Request;
 
 class PacienteController extends Controller
 {
+
     public function index()
     {
-        //
-        $pacientes=Paciente::orderBy('id','DESC')->paginate(3);
-        return view('Paciente.index',compact('pacientes'));
+        $pacientes = Paciente::latest()->paginate(5);
+
+        return view('pacientes.index',compact('pacientes'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
 
     public function create()
     {
-        //
-        return view('Paciente.create');
+        return view('pacientes.create');
     }
 
 
     public function store(Request $request)
     {
-        //
-        $this->validate($request,[ 'nombre'=>'required', 'edad'=>'required', 'telefono'=>'required', 'razon'=>'required', 'email'=>'required', 'departamento'=>'required', 'fecha'=>'required','doctor'=>'required' ]);
+        $request->validate([
+            'nombre' => 'required',
+            'edad' => 'required',
+            'telefono' => 'required',
+            'razon' => 'required',
+            'email' => 'required',
+            'departamento' => 'required',
+            'fecha' => 'required',
+            'doctor' => 'required',
+        ]);
+
         Paciente::create($request->all());
-        return redirect()->route('Paciente.index')->with('success','Registro creado satisfactoriamente');
+
+        return redirect()->route('pacientes.index')
+            ->with('success','Product created successfully.');
     }
 
-
-    public function show($id)
+    public function show(Paciente $paciente)
     {
-        $pacientes=Paciente::find($id);
-        return  view('Paciente.show',compact('pacientes'));
+        return view('pacientes.show',compact('pacientes'));
     }
 
-
-    public function edit($id)
+    public function edit(Paciente $paciente)
     {
-        //
-        $pacientes=Paciente::find($id);
-        return view('Paciente.edit',compact('pacientes'));
+        return view('pacientes.edit',compact('pacientes'));
     }
 
-
-    public function update(Request $request, $id)    {
-        //
-        $this->validate($request,[ 'nombre'=>'required', 'edad'=>'required', 'telefono'=>'required', 'razon'=>'required', 'email'=>'required', 'departamento'=>'required', 'fecha'=>'required','doctor'=>'required' ]);
-
-        Paciente::find($id)->update($request->all());
-        return redirect()->route('Paciente.index')->with('success','Registro actualizado satisfactoriamente');
-
-    }
-
-    public function destroy($id)
+    public function update(Request $request, Paciente $paciente)
     {
-        //
-        Paciente::find($id)->delete();
-        return redirect()->route('Paciente.index')->with('success','Registro eliminado satisfactoriamente');
+        $request->validate([
+            'nombre' => 'required',
+            'edad' => 'required',
+            'telefono' => 'required',
+            'razon' => 'required',
+            'email' => 'required',
+            'departamento' => 'required',
+            'fecha' => 'required',
+            'doctor' => 'required',
+        ]);
+
+        $paciente->update($request->all());
+
+        return redirect()->route('pacientes.index')
+            ->with('success','Product updated successfully');
+    }
+
+    public function destroy(Paciente $paciente)
+    {
+        $paciente->delete();
+
+        return redirect()->route('pacientes.index')
+            ->with('success','Product deleted successfully');
     }
 }
