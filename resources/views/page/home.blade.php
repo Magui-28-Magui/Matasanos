@@ -7,7 +7,7 @@
                 <!-- Info Box -->
                 <div class="col-lg-4 info_box_col">
                     <div class="info_box">
-                        <div class="info_image"><img src="images/info_1.jpg" alt=""></div>
+                        <div class="info_image"><img src="images/doc_1.jpg" alt=""></div>
                         <div class="info_content">
                             <div class="info_title">Doctor Jefferson Gutierritos</div>
                             <div class="info_text">Arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus mollis.</div>
@@ -18,7 +18,7 @@
                 <!-- Info Box -->
                 <div class="col-lg-4 info_box_col">
                     <div class="info_box">
-                        <div class="info_image"><img src="images/info_2.jpg" alt=""></div>
+                        <div class="info_image"><img src="images/doc_2.jpg" alt=""></div>
                         <div class="info_content">
                             <div class="info_title">Doctor Alvin Yakitori</div>
                             <div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
