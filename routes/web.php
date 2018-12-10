@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('page.home');
 });
 
+Route::resource('Paciente', 'PacienteController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
