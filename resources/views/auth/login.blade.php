@@ -21,7 +21,7 @@
                                     <div class="header_top_nav">
                                         <ul class="d-flex flex-row align-items-center justify-content-start">
                                             <li><a href="index.blade.php">Inicio</a></li>
-                                            <li> <a href="https://serene-waters-40259.herokuapp.com/register" class="nav-link">Registrar</a></li>
+                                            <li> <a href="https://hospital-matasanos.herokuapp.com/register" class="nav-link">Registrar</a></li>
 
                                         </ul>
                                     </div>
@@ -92,7 +92,7 @@
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="info_form_button" style="width:40%;">
+                                    <button type="submit" class="info_form_button" style="width ">
                                         {{ __('Iniciar Sesión') }}
                                     </button>
 
