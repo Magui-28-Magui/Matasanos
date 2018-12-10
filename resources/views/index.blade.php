@@ -115,7 +115,7 @@
 							<div class="home_title">Servicios médicos en los que puedes confiar.</div>
 							<div class="home_text">Coordinamos cada aspecto de tu atención médica y los equipos de expertos trabajan juntos para brindarte exactamente la atención que necesitas</div>
                             <div class="header_top_phone">
-                                <button class="btn btn-default  dim" type="button" data-toggle="modal" data-target=".bd-example-modal-sm">Reserva  tu cita</button>
+                                <button class="btn btn-primary  dim" type="button" data-toggle="modal" data-target=".bd-example-modal-sm">Reserva  tu cita</button>
                                 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-sm">
                                         <div class="modal-content">
