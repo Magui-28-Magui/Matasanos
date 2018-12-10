@@ -151,8 +151,6 @@
                                                     <option>Alvin Yakitori</option>
                                                     <option>Jefferson Gutierritos</option>
                                                 </select>
-
-                                                <button class="info_form_button">make an appointment</button>
                                             </form>
                                         </div>
 
@@ -160,7 +158,7 @@
                                         <div class="modal-footer">
 
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                            <button type="submit" class="btn btn-primary">Enviar</button>
+                                            <button type="submit" class="info_form_button">Enviar</button>
                                         </div>
 
                                     </div>
