@@ -12,8 +12,7 @@
     <link href="{{asset('css/main_styles.css')}}" rel="stylesheet"/>
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet"/>
     <link href="{{asset('plugins/OwlCarousel2-2.2.1/animate.css')}}" rel="stylesheet"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 
 
 
@@ -189,7 +188,8 @@
 </div>
 
 <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
-<script src="plugins/js/custom.js"></script>
+<script src="{{asset('styles/bootstrap4/popper.js')}}"></script>
+<script src="{{asset('styles/bootstrap4/bootstrap.min.js')}}"></script>
 <script src="{{asset('plugins/parallax-js-master/parallax.min.js')}}"></script>
 <script src="{{asset('plugins/js/custom.js')}}"></script>
 </body>
