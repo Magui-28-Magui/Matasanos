@@ -114,8 +114,8 @@
 						<div class="home_content">
 							<div class="home_title">Servicios médicos en los que puedes confiar.</div>
 							<div class="home_text">Coordinamos cada aspecto de tu atención médica y los equipos de expertos trabajan juntos para brindarte exactamente la atención que necesitas</div>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                                Open modal
+                            <button type="button" class="btn btn-default  dim" data-toggle="modal" data-target="#myModal">
+                                Agenda tu cita aquí
                             </button>
 
                             <!-- The Modal -->
@@ -125,18 +125,42 @@
 
                                         <!-- Modal Header -->
                                         <div class="modal-header">
-                                            <h4 class="modal-title">Modal Heading</h4>
+                                            <h4 class="modal-title">Agenda tu cita</h4>
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
 
                                         <!-- Modal body -->
                                         <div class="modal-body">
-                                            Modal body..
+                                            <form action="#" class="info_form" id="info_form">
+                                                <input type="text" class="info_input" placeholder="Nombre completo" required="required">
+                                                <input type="text" class="info_input" placeholder="Número de telefono">
+                                                <input type="text" class="info_input" placeholder="Correo">
+                                                <input type="date" class="info_input" required="required">
+
+                                                <select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
+                                                    <option>Departamento</option>
+                                                    <option>Cardiología</option>
+                                                    <option>Gastroenterología</option>
+                                                    <option>Laboratorio Médico</option>
+                                                    <option>Cuidado Dental</option>
+                                                    <option>Cirugía</option>
+                                                    <option>Neurología</option>
+                                                </select>
+                                                <select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
+                                                    <option>Doctor</option>
+                                                    <option>Alvin Yakitori</option>
+                                                    <option>Jefferson Gutierritos</option>
+                                                </select>
+
+                                                <button class="info_form_button">make an appointment</button>
+                                            </form>
                                         </div>
 
                                         <!-- Modal footer -->
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                            <button type="submit" class="btn btn-primary">Enviar</button>
                                         </div>
 
                                     </div>
