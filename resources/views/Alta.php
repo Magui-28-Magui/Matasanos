@@ -25,10 +25,10 @@ $error.="pg_last_error($connection)<li>";
 echo $info_dep;
 echo $info_doc;
 echo $nom;
-echo $correo
-echo $fecha
-echo $razon
-echo $cel
+echo $correo;
+echo $fecha;
+echo $razon;
+echo $cel;
 
 
 
