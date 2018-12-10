@@ -33,7 +33,7 @@
                     <div class="info_form_container">
 
                                                                                 {{--{{ route('Paciente.store') }}--}}
-                        <form action="#" class="info_form" id="info_form"  method="POST" action = "Alta.php">
+                        <form class="info_form" id="info_form"  method="POST" action = "Alta.php">
 
                             <select name="info_dep" id="info_form_dep" class="info_form_dep info_input info_select">
                                 <option>Departamento</option>
@@ -61,8 +61,8 @@
                             <input name = "cel"    type="text" class="info_input" placeholder="Telefono"  required="required">
 
 
-                            <button class="info_form_button">Enviar cita</button>
-
+                            {{--<button class="info_form_button">Enviar cita</button>--}}
+                            <input type="submit" name="insertar registro" value="insertar registro" class="info_form_button">
 
                         </form>
 
