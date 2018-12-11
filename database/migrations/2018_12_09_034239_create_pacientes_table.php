@@ -21,9 +21,9 @@ class CreatePacientesTable extends Migration
             $table->integer('telefono');
             $table->text('razon');
             $table->string('email');
-            $table->enum('departamento',  ['Cuidado Dental','Cirugia','Neurologia']);
+            $table->string('departamento');
             $table->date('fecha');
-            $table->enum('doctor',['Alvin Yakitori','Jefferson Gutierritos']);
+            $table->string('doctor');
         });
     }
 
