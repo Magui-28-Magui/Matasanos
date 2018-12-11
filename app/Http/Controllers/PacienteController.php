@@ -10,10 +10,8 @@ class PacienteController extends Controller
 
     public function index()
     {
-        $pacientes = Paciente::latest()->paginate(5);
-
-        return view('pacientes.index',compact('pacientes'))
-            ->with('i', (request()->input('page', 1) - 1) * 5);
+        $pacientes = Paciente::get();
+        return view('pacientes.index')->with('pacientes', $pacientes);
     }
 
 
@@ -34,12 +32,21 @@ class PacienteController extends Controller
             'departamento' => 'required',
             'fecha' => 'required',
             'doctor' => 'required',
-        ]);
 
-        Paciente::create($request->all());
+            $paciente = new Paciente();
+        $paciente->nombre = $request->input('nombre');
+        $paciente->edad  = $request->input('edad');
+        $paciente->telefono  = $request->input('telefono');
+        $paciente->razon  = $request->input('razon');
+        $paciente->email = $request->input('email');
+        $paciente->departamento  = $request->input('departamento');
+        $paciente->fecha = $request->input('fecha');
+        $paciente->doctor = $request->input('doctor');
 
-        return redirect()->route('pacientes.index')
-            ->with('success','Product created successfully.');
+        $paciente->save();
+
+        return redirect()->route('paciente.index');
+
     }
 
     public function show(Paciente $paciente)
@@ -47,9 +54,10 @@ class PacienteController extends Controller
         return view('pacientes.show',compact('pacientes'));
     }
 
-    public function edit(Paciente $paciente)
+    public function edit($id)
     {
-        return view('pacientes.edit',compact('pacientes'));
+        $paciente = Paciente::find($id);
+        return view('pacientes.edit')->with('paciente',$paciente);
     }
 
     public function update(Request $request, Paciente $paciente)

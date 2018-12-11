@@ -16,4 +16,5 @@ class Paciente extends Model
         'fecha',
         'doctor'
     ];
+
 }
